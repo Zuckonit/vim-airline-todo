@@ -22,6 +22,15 @@ This is vim-airline extension of simplily todo implementation
 * If you want to change todo task suffix (the default is '*'):
 > let g:todo#suffix = "your todo task suffix here" 
   
+
+## Usage
+Create file in directory `g:task_directory`, one file one task.  
+
+## Trick
+If you are using plugin NERDTree, you can set a keymap like `map <leader>t :NERDTree 'g:task_directory here'`   
+If you are using other file browse plugin, just take above as a reference  
+Then you can easily browse and edit your task(s)  
+
 ## Screenshot
 ![todo](https://raw.github.com/Zuckonit/vim-airline-todo/master/.screenshots/screenshot.png)
 
