@@ -6,10 +6,9 @@ This is vim-airline extension of simplily todo implementation
   
 ##Required
 * [Airline](https://github.com/bling/vim-airline): This is a extension of airline (like powerline, but more fast and KISS)
-* [powerline-font](https://github.com/Lokaltog/powerline-fonts): if you use wild char, you may need install powerline font
+* [powerline-font](https://github.com/Lokaltog/powerline-fonts): if you use wild char, you may need install powerline font  
+
 ##Configuration
-
-
 * If you want to change the todo directory(the default is ~/.vim-airline-todo):
 > let g:todo#directory = "your todo task directory"
   
