@@ -26,12 +26,12 @@ vim-airline-todo
 > Create file in directory `g:todo#directory`, one file one task.  
 
 ## Trick
-* keymap
+> * keymap
 > If you are using plugin NERDTree, you can set a keymap like ```map <leader>t :NERDTree 'g:todo#directory here'```   
 > If you are using other file browse plugin, just take above as a reference  
 > Then you can easily browse and edit your task(s)  
 
-* sync
+> * sync
 > you can use dropbox as a sync tool, just set ```let g:todo#directory``` in a dropbox sync place
 
 ## Screenshot
